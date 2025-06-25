@@ -1,0 +1,25 @@
+<lint-module
+    format="1"
+    dir="C:\Users\91770\AndroidStudioProjects\alarm4\wear"
+    name=":wear"
+    type="APP"
+    maven="alarm4:wear:unspecified"
+    agpVersion="8.12.0-alpha06"
+    buildFolder="build"
+    bootClassPath="C:\Users\91770\AppData\Local\Android\Sdk\platforms\android-36\android.jar;C:\Users\91770\AppData\Local\Android\Sdk\build-tools\35.0.0\core-lambda-stubs.jar"
+    javaSourceLevel="11"
+    compileTarget="android-36">
+  <lintOptions
+      disable="WearableBindListener"
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true">
+    <severities>
+      <severity
+        id="WearableBindListener"
+        severity="IGNORE" />
+    </severities>
+  </lintOptions>
+  <variant name="release"/>
+</lint-module>

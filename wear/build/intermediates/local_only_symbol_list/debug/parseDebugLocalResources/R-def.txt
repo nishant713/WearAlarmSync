@@ -1,0 +1,8 @@
+R_DEF: Internal format may change without notice
+local
+mipmap ic_launcher
+mipmap ic_launcher_adaptive_back
+mipmap ic_launcher_adaptive_fore
+string app_name
+style Theme
+style Theme.Alarm4Wear

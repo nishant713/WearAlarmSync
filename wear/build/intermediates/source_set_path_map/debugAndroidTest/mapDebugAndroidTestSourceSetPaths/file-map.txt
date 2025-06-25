@@ -1,0 +1,4 @@
+com.neolabs.alarm4.test.wear-androidTest-0 C:\Users\91770\AndroidStudioProjects\alarm4\wear\build\generated\res\resValues\androidTest\debug
+com.neolabs.alarm4.test.wear-mergeDebugAndroidTestResources-1 C:\Users\91770\AndroidStudioProjects\alarm4\wear\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.neolabs.alarm4.test.wear-mergeDebugAndroidTestResources-2 C:\Users\91770\AndroidStudioProjects\alarm4\wear\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.neolabs.alarm4.test.wear-debugAndroidTest-3 C:\Users\91770\AndroidStudioProjects\alarm4\wear\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

@@ -1,6 +1,7 @@
 package com.neolabs.alarm4
 
 import android.content.Intent
+import android.provider.AlarmClock
 import android.util.Log
 import com.google.android.gms.wearable.MessageEvent
 import com.google.android.gms.wearable.WearableListenerService
@@ -12,7 +13,8 @@ class SyncListenerService : WearableListenerService() {
                 Log.d("SyncListenerService", "Received /dismiss message from watch")
                 val dismissIntent = Intent("android.intent.action.DISMISS_ALARM")
                 dismissIntent.setPackage("com.google.android.deskclock")
-                dismissIntent.putExtra("android.intent.extra.alarm.SKIP_UI", true)
+                dismissIntent.putExtra(AlarmClock.EXTRA_SKIP_UI, true)
+                dismissIntent.putExtra(AlarmClock.EXTRA_ALARM_SEARCH_MODE, AlarmClock.ALARM_SEARCH_MODE_NEXT)
                 dismissIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
                 startActivity(dismissIntent)
             }
